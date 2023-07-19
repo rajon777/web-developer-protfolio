@@ -176,3 +176,29 @@ nav{
     text-align: center;
     margin-top: 40px;
 }
+/*footer css*/
+.footer-section{
+    margin: 80px 80px;
+    background:  #FFF8F3;
+    padding: 100px 70px;
+}
+.footer-item{}
+.item-section{
+    display: flex;
+    justify-content: space-between;
+}
+.item{}
+.footer-header{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer-description{
+    width: 400px;
+    font-size: 16px;
+    color: #474747;
+}
+.submit-btn{
+    margin-top: 40px;
+}
+
