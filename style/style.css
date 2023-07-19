@@ -37,4 +37,17 @@ nav a{
 }
 nav{
     justify-content: space-between ;
+    padding: 20px 70px;
+}
+/*hearder css*/
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 20px 20px 20px 120px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 400px;
 }
