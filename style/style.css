@@ -42,12 +42,98 @@ nav{
 /*hearder css*/
 .header{
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 }
 .banner{
-    padding: 20px 20px 20px 120px;
+    padding: 20px 20px 0px 120px;
     display: flex;
     align-items: center;
 }
 .banner .profile-pic{
     width: 400px;
+}
+.banner-greeting{
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+.banner-description{
+    margin-bottom: 35px;
+}
+/* about section css*/
+.about-section{
+    background: #FFF8F3;
+    margin: 150px 150px;
+    padding: 80px 50px;
+    text-align: center;
+}
+.main-header-section{
+    font-size: 30px;
+    margin-bottom:20px ;
+    font-weight: 800;
+}
+.header-containt{
+    color: #474747;
+}
+.parsonal-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.about-info{
+    line-height: 8px;
+}
+.info-title{
+    color: #474747;
+}
+.info-description{
+    padding-top: 0px;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-description{
+    color: #474747;
+}
+.What-i-do{
+    margin: 100px 150px;
+    text-align: center;
+}
+/*skill section*/
+.skill-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 80px;
+    background: #FFF8F3;
+    padding: 50px;
+
+
+}
+.skill-items{
+    width: 200px;
+    box-shadow: 2px 2px 20px rgb(175, 177, 173,.5);
+
+}
+.s-i{
+    padding: 20px 20px;
+}
+.skill-header{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.skill-descripion{
+    padding:0px 20px 20px 20px ;
+    font-size: 15px;
+    color: #474747;
 }
