@@ -1,0 +1,40 @@
+/*header css*/
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+.blog-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color: orangered;
+}
+.btn-primary{
+    background: orangered;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 0;
+    font-size: 20px;
+    color: #fafafa;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+nav{
+    justify-content: space-between ;
+}
